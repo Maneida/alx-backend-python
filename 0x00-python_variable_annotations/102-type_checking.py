@@ -1,11 +1,12 @@
 #!/usr/bin/env python3
-'''Module that Use mypy to validate the following
-   piece of code and apply any necessary changes.'''
+"""
+Use mypy to validate code and apply necessary changes
+"""
 from typing import Tuple, List
 
 
 def zoom_array(lst: Tuple, factor: int = 2) -> List:
-    '''Returns a list'''
+    """Returns a list"""
     zoomed_in: List = [
         item for item in lst
         for i in range(factor)

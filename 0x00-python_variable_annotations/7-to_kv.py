@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
-'''Module that takes a string k and an int OR
-   float v as arguments and returns a tuple'''
+"""
+Annotations for to_kv function
+"""
 
 from typing import Union, Tuple
 
